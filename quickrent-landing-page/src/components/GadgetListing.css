@@ -1,0 +1,53 @@
+/* src/components/GadgetListing.css */
+
+.gadget-listing {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.gadget-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.gadget-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.gadget-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.gadget-card p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Increase emoji size */
+.gadget-icon {
+  font-size: 4em;  /* Increase this value to make the emoji bigger */
+  margin-bottom: 15px;
+}
+
+.rent-btn,
+.list-gadget-btn {
+  background-color: #1d72b8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.rent-btn:hover,
+.list-gadget-btn:hover {
+  background-color: #155a8a;
+}

@@ -1,0 +1,39 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #1d72b8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links,
+  .social-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links a,
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.1em;
+  }
+  
+  .footer-links a:hover,
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  

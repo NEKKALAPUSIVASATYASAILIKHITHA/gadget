@@ -1,0 +1,104 @@
+.hero-banner {
+  background-image: url('../assets/images/background.jpg'); /* Path to background image */
+  background-size: cover; /* Makes the image cover the whole section */
+  background-position: center; /* Ensures the image is centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Makes the section take up the full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 20px; /* Adds padding to the section */
+  color: blue; /* Sets text color to white for better contrast */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo-img {
+  width: 150px; /* Adjust the size of your logo */
+}
+
+.hero-content {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.cta-btn {
+  background-color: #ff6200; /* Example button color */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.cta-btn:hover {
+  background-color: #e55d00; /* Darker shade for hover effect */
+}
+.signup-btn {
+  padding: 15px 30px; /* Adjust padding to make the button bigger */
+  font-size: 18px; /* Increase font size */
+  background-color: #ff6200; /* You can change this to your desired color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Optional: adds rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.signup-btn:hover {
+  background-color: #e55d00; /* Darker shade for hover effect */
+}
+.logo-img {
+  width: 120px; /* Adjust the size of the logo */
+  height: 120px; /* Make the height equal to the width to create a circle */
+  border-radius: 50%; /* This will make the image round */
+  object-fit: cover; /* Ensures the image is contained within the circle and doesn't get stretched */
+  border: 2px solid #fff; /* Optional: adds a white border around the circle */
+}
+/* src/components/HeroBanner.css (for example) */
+
+/* Make adjustments for small screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 2em;
+  }
+
+  .hero-content p {
+    font-size: 1em;
+  }
+
+  .cta-btn {
+    font-size: 1.2em;
+    padding: 12px 30px;
+  }
+
+  /* More responsive styles for other sections */
+  .gadget-cards {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .gadget-card {
+    width: 100%;
+  }
+}
